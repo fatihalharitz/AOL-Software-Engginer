@@ -17,24 +17,26 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
      <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="/css/stylesheet.css"> 
+     <link rel="stylesheet" href="/css/home-stylesheet.css"> 
 
     <title>WebPet</title>
   </head>
 
   <body>
-    <div class="navigation_bar">
-        <div class="container_navigation_bar_left">
-          <a href="home.html"
-            class="title"
-          >
+    <div class="navigation-bar">
+        <div class="logo-title-container">
+          <a href="home.html">
             <img 
               src="/assets/logo1.png"
               alt="WebPet"
             >
             WebPet
           </a>
-          <form>
+        </div>
+        
+        <div class="button-search-bar-container">
+          <div class="search-bar-container">
+            <form>
               <input
               type="text"
               id="search_input"
@@ -46,25 +48,25 @@
                   search
                 </span>
               </button>
-          </form>
-          <a href="#services" class="navigation_button">Services</a>
-          <a href="#forum" class="navigation_button">Forum</a>
-          <a href="#about" class="navigation_button">About</a>
-        </div>
-        <div class="container_navigation_bar_right">
-          <button class="material-symbols-outlined">
-            support_agent
-          </button>
-          <button class="material-symbols-outlined">
-            notifications
-          </button>
-          <button class="material-symbols-outlined">
-            account_circle
-          </button>
+            </form>
+          </div>
+          <div class="button-text-container">
+            <a href="#services">Services</a>
+            <a href="#forum">Forum</a>
+            <a href="#about">About</a>
+          </div>
+          <div class="button-icon-container">
+            <button class="material-symbols-outlined">
+              notifications
+            </button>
+            <button class="material-symbols-outlined">
+              account_circle
+            </button>
+          </div>
         </div>
     </div>
     <div class="banner">
-        
+        <img src="/assets/andrew-s-ouo1hbizWwo-unsplash.jpg" alt="banner">
     </div>
     <div class="services" id="services">
 

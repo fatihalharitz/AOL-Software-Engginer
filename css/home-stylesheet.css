@@ -1,0 +1,177 @@
+
+body{
+    width: 100%;
+    margin: 0;
+    overflow-x:hidden;
+    background-color: white;
+}
+
+/* for downscale the page */
+@media screen and(max-width: 600px) {
+    
+}
+
+/* *********************** Navigation bar or header style sheet ***********************************************/
+.navigation-bar{
+    background-color: white;
+    padding: 25px 40px 25px 40px;
+    height: 100%;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    border-radius: 0px 0px 15px 15px;
+    align-items: center;
+}
+
+/* logo and title container*/
+.logo-title-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo-title-container a{
+    display: flex;
+    align-items: center;
+    color:black;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.logo-title-container a:hover{
+    text-decoration: none;
+    color:#e26310;
+}
+
+.logo-title-container a img{
+    margin-right: 10px;
+    width: 70px;
+}
+
+/* button and search bar container */
+.button-search-bar-container{
+    margin-left: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+/* search bar container */
+.search-bar-container form{
+    position: relative;
+    display: inline-block;
+}
+
+.search-bar-container form input{
+    font-size: 16px;
+    width: 500px;
+    height: 30px;
+    padding: 10px 57px 10px 22px;
+    background-color: #e1e1e1;
+    border: 0;
+    border-radius: 100px;
+    outline-color: #e26310;
+}
+
+.search-bar-container form button{
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search-bar-container form button span{
+    font-size: 30px;
+    color: #e26310;
+}
+
+.search-bar-container form button span:hover{
+    color: #FFA836;
+    font-size: 32px;
+}
+
+/* button text container */
+.button-text-container a{
+    margin-left: 20px;
+    text-decoration: none;
+    color:black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.button-text-container a:hover{
+    color:#e26310;
+    text-decoration: none;
+}
+
+/* button icon container */
+.button-icon-container button{
+    margin-right: 10px;
+    font-size: 30px;
+    color: #e26310;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.button-icon-container button:hover{
+    color: #FFA836;
+}
+
+/* ************************************************************************************************************* */
+/**************************************** BANNER *************************************************************** */
+
+.banner{
+    display: inline-block;
+    width: 100%;
+    height: 625px;
+    background-color: aquamarine;
+}
+
+.banner img{
+    height: 100%;
+    object-fit: fill;
+}
+
+/* ************************************************************************************************************* */
+/* **************************************** SERVICES ************************************************************ */
+
+.services{
+    width: 100%;
+    height: 625px;
+    background-color: pink;
+}
+
+/* **************************************************************************************************************** */
+/* *************************************** FORUM ***************************************************************** */
+
+.forum{
+    width: 100%;
+    height: 625px;
+    background-color: green;
+}
+
+/* **************************************************************************************************************** */
+/* ***************************************** ABOUT *************************************************************** */
+.about{
+    width: 100%;
+    height: 500px;
+    background-color: orangered;
+}
+
+/* **************************************************************************************************************** */
+/* *************************************** FOOTER ***************************************************************** */
+
+.footer{
+    width: 100%;
+    height: 135px;
+    background-color: blueviolet;
+}
